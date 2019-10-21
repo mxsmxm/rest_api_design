@@ -1,0 +1,17 @@
+GET http://localhost:3000
+
+###
+
+GET http://localhost:3000/product/5
+###
+
+//Post请求 Json格式提交 
+POST http://localhost:3000
+User-Agent: rest-client
+Accept-Language: en-GB,en-US;q=0.8,en;q=0.6,zh-CN;q=0.4
+Content-Type: application/json
+
+{
+    "name": "tom",
+    "age": 30
+}
